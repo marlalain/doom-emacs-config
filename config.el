@@ -14,14 +14,3 @@
 
 (load! "keybindings.el")
 (load! "defuns.el")
-;;; Bindings
-;; TODO Move me to ./bindings.el !
-;; Base (Sane)
-(global-set-key (kbd "M-w") 'counsel-M-x)
-
-;; Editing
-(global-set-key (kbd "M-n") 'evil-open-below)
-
-;; Motion
-(global-set-key (kbd "M-j") 'evil-avy-goto-word-1)
-(global-set-key (kbd "C-s") 'swiper-helm)
