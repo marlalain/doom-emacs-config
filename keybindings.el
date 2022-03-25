@@ -11,9 +11,9 @@
 (global-set-key (kbd "M-j") 'evil-avy-goto-word-1)
 (global-set-key (kbd "C-s") 'swiper-helm)
 
-;; Doom
+;; Doom Update
 (map!
  :map doom-sync-map
  :leader
- :desc "Updates Doom"
+ :desc "Doom Update"
  :m "q u" 'doom-sync)
